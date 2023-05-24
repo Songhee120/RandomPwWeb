@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Length</title>
+    <!-- 부트스트랩 CSS 링크 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      class="container text-center d-flex align-items-center justify-content-center vh-100"
+    >
+      <div class="position-relative">
+        <h3 class="main-title">
+          How many digits does the password need to be?
+        </h3>
+        <form>
+          <div
+            class="input-wrapper position-absolute top-50 start-50 translate-middle"
+          >
+            <input
+              class="number-input"
+              type="number"
+              min="4"
+              max="8"
+              placeholder="Between 4 and 8"
+              required
+            />
+            <button type="button" class="btn btn-light">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- jQuery 스크립트 추가 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 부트스트랩 JS 스크립트 링크 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
