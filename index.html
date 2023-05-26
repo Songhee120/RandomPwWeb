@@ -31,7 +31,7 @@
               placeholder="Between 4 and 8"
               required
             />
-            <button type="button" class="btn btn-light">Submit</button>
+            <button type="button" class="btn btn-light" onclick="redirectToOtherPage()">Submit</button>
           </div>
         </form>
       </div>
@@ -41,4 +41,10 @@
     <!-- 부트스트랩 JS 스크립트 링크 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
-</html>
+  <script>
+    function redirectToOtherPage() {
+      window.location.href = "loading.html";
+    }
+  </script>
+
+  </html>

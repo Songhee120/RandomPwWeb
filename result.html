@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Result</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+    class="container text-center d-flex align-items-center justify-content-center vh-100"
+  >
+    <div class="position-relative">
+      <h3 class="main-title">
+        Your password is
+      </h3>
+      <div class="box" onmouseover="showResult()" onmouseout="hideResult()">
+        <div id="result" class="result">
+            <p class="result-text">4985</p>
+          </div>
+      </div>
+    </div>
+  </div>
+    <!-- jQuery 스크립트 추가 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 부트스트랩 JS 스크립트 링크 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+  <script>
+    function showResult() {
+        var result = document.getElementById("result");
+        result.style.display = "block";
+    }
+    function hideResult() {
+        var result = document.getElementById("result");
+        result.style.display = "none";
+    }
+  </script>
+</html>
