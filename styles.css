@@ -256,6 +256,9 @@ ANIMATIONS
 /* 결과 페이지 css */
 .result {
     display: none;
+    font-family: 'Lato';
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .box {
@@ -270,9 +273,3 @@ ANIMATIONS
     margin-left: auto;
   }
 
-.result-text {
-    font-family: 'Lato';
-    font-size: large;
-    font-weight: bold;
-    
-}
